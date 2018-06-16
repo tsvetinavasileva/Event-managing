@@ -1,0 +1,3 @@
+/home/tsvetina/CLionProjects/interview2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tsvetina/CLionProjects/interview2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tsvetina/CLionProjects/interview2/cmake-build-debug/CMakeFiles/interview2.dir

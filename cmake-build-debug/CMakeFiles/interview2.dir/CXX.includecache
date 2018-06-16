@@ -1,0 +1,130 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsvetina/CLionProjects/interview2/Commands/command.h
+../eventList/eventList.h
+/home/tsvetina/CLionProjects/interview2/eventList/eventList.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/deleteEvent.cpp
+deleteEvent.h
+/home/tsvetina/CLionProjects/interview2/Commands/deleteEvent.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/deleteEvent.h
+command.h
+/home/tsvetina/CLionProjects/interview2/Commands/command.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/newEvent.cpp
+newEvent.h
+/home/tsvetina/CLionProjects/interview2/Commands/newEvent.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/newEvent.h
+command.h
+/home/tsvetina/CLionProjects/interview2/Commands/command.h
+../Event/Event.h
+/home/tsvetina/CLionProjects/interview2/Event/Event.h
+../eventList/eventList.h
+/home/tsvetina/CLionProjects/interview2/eventList/eventList.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/readAllEvents.cpp
+readAllEvents.h
+/home/tsvetina/CLionProjects/interview2/Commands/readAllEvents.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/readAllEvents.h
+command.h
+/home/tsvetina/CLionProjects/interview2/Commands/command.h
+../eventList/eventList.h
+/home/tsvetina/CLionProjects/interview2/eventList/eventList.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/updateEvent.cpp
+updateEvent.h
+/home/tsvetina/CLionProjects/interview2/Commands/updateEvent.h
+
+/home/tsvetina/CLionProjects/interview2/Commands/updateEvent.h
+command.h
+/home/tsvetina/CLionProjects/interview2/Commands/command.h
+
+/home/tsvetina/CLionProjects/interview2/Date and time/Date.cpp
+Date.h
+/home/tsvetina/CLionProjects/interview2/Date and time/Date.h
+sstream
+-
+
+/home/tsvetina/CLionProjects/interview2/Date and time/Date.h
+sstream
+-
+iostream
+-
+
+/home/tsvetina/CLionProjects/interview2/Date and time/Time.cpp
+Time.h
+/home/tsvetina/CLionProjects/interview2/Date and time/Time.h
+sstream
+-
+
+/home/tsvetina/CLionProjects/interview2/Date and time/Time.h
+iostream
+-
+
+/home/tsvetina/CLionProjects/interview2/Event/Event.cpp
+Event.h
+/home/tsvetina/CLionProjects/interview2/Event/Event.h
+
+/home/tsvetina/CLionProjects/interview2/Event/Event.h
+iostream
+-
+cstring
+-
+../Date and time/Date.h
+/home/tsvetina/CLionProjects/interview2/Date and time/Date.h
+../Date and time/Time.h
+/home/tsvetina/CLionProjects/interview2/Date and time/Time.h
+
+/home/tsvetina/CLionProjects/interview2/Menu/Menu.cpp
+iostream
+-
+sstream
+-
+Menu.h
+/home/tsvetina/CLionProjects/interview2/Menu/Menu.h
+../Commands/command.h
+/home/tsvetina/CLionProjects/interview2/Commands/command.h
+../Commands/readAllEvents.h
+/home/tsvetina/CLionProjects/interview2/Commands/readAllEvents.h
+../Commands/newEvent.h
+/home/tsvetina/CLionProjects/interview2/Commands/newEvent.h
+../Commands/updateEvent.h
+/home/tsvetina/CLionProjects/interview2/Commands/updateEvent.h
+../Commands/deleteEvent.h
+/home/tsvetina/CLionProjects/interview2/Commands/deleteEvent.h
+
+/home/tsvetina/CLionProjects/interview2/Menu/Menu.h
+../eventList/eventList.h
+/home/tsvetina/CLionProjects/interview2/eventList/eventList.h
+
+/home/tsvetina/CLionProjects/interview2/eventList/eventList.cpp
+eventList.h
+/home/tsvetina/CLionProjects/interview2/eventList/eventList.h
+sstream
+-
+
+/home/tsvetina/CLionProjects/interview2/eventList/eventList.h
+vector
+-
+iostream
+-
+fstream
+-
+../Event/Event.h
+/home/tsvetina/CLionProjects/interview2/Event/Event.h
+
+/home/tsvetina/CLionProjects/interview2/main.cpp
+iostream
+-
+Menu/Menu.h
+/home/tsvetina/CLionProjects/interview2/Menu/Menu.h
+
