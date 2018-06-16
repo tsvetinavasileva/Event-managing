@@ -10,7 +10,6 @@
 
 class Menu {
 public:
-    void storeFile();
     void run();
 
 };
