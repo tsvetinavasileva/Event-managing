@@ -10,15 +10,6 @@
 #include "../Commands/updateEvent.h"
 #include "../Commands/deleteEvent.h"
 
-void Menu::storeFile(){
-    std::string file;
-    std::cout << "Enter file name for storing events:\n";
-    std::getline(std::cin, file);
-    if (file.empty()) {
-        file = "default";
-    }
-}
-
 void Menu::run() {
     std::string file;
     std::cout << "Enter file name for storing events:\n";
