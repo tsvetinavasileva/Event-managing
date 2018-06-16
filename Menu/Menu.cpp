@@ -20,7 +20,12 @@ void Menu::storeFile(){
 }
 
 void Menu::run() {
-
+    std::string file;
+    std::cout << "Enter file name for storing events:\n";
+    std::getline(std::cin, file);
+    if (file.empty()) {
+        file = "default";
+    }
     EventList list("input");
 
     while(true) {
