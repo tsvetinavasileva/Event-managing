@@ -24,7 +24,7 @@ void Menu::run() {
         std::cout << "2.Create a new event." << std::endl;
         std::cout << "3.Update an event." << std::endl;
         std::cout << "4.Delete an event." << std::endl;
-        std::cout << "5.Quit." << std::endl;
+        std::cout << "5.Close menu." << std::endl;
         short number;
         std::cin >> number;
         Command *command;
