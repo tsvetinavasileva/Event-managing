@@ -20,10 +20,10 @@ void Menu::run() {
     EventList list("input");
 
     while(true) {
-        std::cout << "1.Print all events." << std::endl;
+        std::cout << "1.Read all events." << std::endl;
         std::cout << "2.Create a new event." << std::endl;
-        std::cout << "3.Update an existing event." << std::endl;
-        std::cout << "4.Delete an existing event." << std::endl;
+        std::cout << "3.Update an event." << std::endl;
+        std::cout << "4.Delete an event." << std::endl;
         std::cout << "5.Quit." << std::endl;
         short input;
         std::cin >> input;
