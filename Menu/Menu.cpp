@@ -17,7 +17,7 @@ void Menu::run() {
     if (file.empty()) {
         file = "default";
     }
-    EventList list("input");
+    EventList list(file);
 
     while(true) {
         std::cout << "1.Read all events." << std::endl;
