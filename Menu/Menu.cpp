@@ -18,7 +18,6 @@ void Menu::run() {
         file = "default";
     }
     EventList list(file);
-
     while(true) {
         std::cout << "1.Read all events." << std::endl;
         std::cout << "2.Create a new event." << std::endl;
@@ -29,7 +28,6 @@ void Menu::run() {
         std::cin >> number;
         Command *command;
         switch (input) {
-
             case 1:
                 command = new ReadAllEvents;
                 break;
