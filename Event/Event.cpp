@@ -40,11 +40,11 @@ std::istream& operator>>(std::istream& is, Event &event) {
             Time endTime(eTime);
             validate = startDate.isValidDate() && endDate.isValidDate()
             && startTime.isValidTime() && endTime.isValidTime() && endDate >= startDate;
-            if(startDate > endDate){
+            if (startDate > endDate) {
                 std::cout << "Ending event precedes starting event" << std::endl;
             }
-            if (startDate == endDate){
-              if(startTime > endTime){
+            if (startDate == endDate) {
+                if(startTime > endTime) {
                     std::cout << "Ending event precedes starting event" << std::endl;
                     validate = false;
               }
