@@ -50,19 +50,19 @@ std::istream& operator>>(std::istream& is, Event &event) {
               }
             }
 
-            if(!startDate.isValidDate()){
+            if (!startDate.isValidDate()) {
                 std::cout << "Invalid start date." << std::endl;
             }
-            if(!startTime.isValidTime()){
+            if (!startTime.isValidTime()) {
                 std::cout << "Invalid start time." << std::endl;
             }
-            if(!endDate.isValidDate()){
+            if (!endDate.isValidDate()) {
                 std::cout << "Invalid start date." << std::endl;
             }
-            if(!endTime.isValidTime()){
+            if (!endTime.isValidTime()) {
                 std::cout << "Invalid end time." << std::endl;
             }
-            if(!validate) {
+            if (!validate) {
                 std::cout << "Try again!" << std::endl;
             }
         }while(!validate);
@@ -78,7 +78,7 @@ std::istream& operator>>(std::istream& is, Event &event) {
 
 Event::Event() {
     name = "";
-    location="";
+    location = "";
 }
 
 const std::string &Event::getName() const {
