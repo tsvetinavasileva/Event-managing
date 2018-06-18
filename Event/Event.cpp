@@ -65,7 +65,7 @@ std::istream& operator>>(std::istream& is, Event &event) {
             if (!validate) {
                 std::cout << "Try again!" << std::endl;
             }
-        }while(!validate);
+        } while (!validate);
 
         event.startDate = sDate;
         event.startTime = sTime;
